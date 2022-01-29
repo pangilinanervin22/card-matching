@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<link rel="stylesheet" href="style.css" />
+
+				<link rel="shortcut icon" href="sample.svg" type="image/x-icon">
+		<title>Card Matching</title>
+	</head>
+	<body>
+		<header><h1 id="score">Score: 0</h1><h1 id="timer">0:30</h1></header>
+		<section id="cards" ">
+		</section>
+
+		<section id="modal_overlay" class="hide">
+			<div class="modal_content">
+				<h1 id="modal_message">You Lose</h1>
+				<button id="modal_button">try again</button>
+			</div>
+		</section>
+
+        <!-- <button onclick="clickTest()">test</button> -->
+		<script src="utils.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>

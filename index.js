@@ -103,7 +103,6 @@ function cardRotate(item, enabler) {
 	}
 }
 
-// setup
 function getIdNumber(cardDom) {
 	return cardDom.getAttribute("id")[cardDom.getAttribute("id").length - 1];
 }
